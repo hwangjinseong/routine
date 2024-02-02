@@ -178,3 +178,27 @@ function createBoxSpacingWithPresets<T extends Property>(type: T) {
 export const padding = createBoxSpacingWithPresets('padding');
 
 export const margin = createBoxSpacingWithPresets('margin');
+
+interface Gap {
+  (gap: number): PickStyle<'gap'>;
+  readonly row: (gap: number) => PickStyle<'rowGap'>;
+  readonly column: (gap: number) => PickStyle<'columnGap'>;
+}
+
+function createGap() {
+  const _gap = (gap: number) => ({
+    gap,
+  });
+
+  _gap.row = (gap: number) => ({
+    rowGap: gap,
+  });
+
+  _gap.column = (gap: number) => ({
+    columnGap: gap,
+  });
+
+  return _gap as Gap;
+}
+
+export const gap = createGap();
