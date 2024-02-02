@@ -30,23 +30,23 @@ function getFlexStyle(
     >
   > = {};
 
-  if (style.flex !== undefined) {
+  if (flex !== undefined) {
     style.flex = flex;
   }
 
-  if (style.flexDirection !== undefined) {
+  if (direction !== undefined) {
     style.flexDirection = direction;
   }
 
-  if (style.flexWrap !== undefined) {
+  if (wrap !== undefined) {
     style.flexWrap = wrap ? 'wrap' : undefined;
   }
 
-  if (style.alignItems !== undefined) {
+  if (align !== undefined) {
     style.alignItems = align;
   }
 
-  if (style.justifyContent !== undefined) {
+  if (justify !== undefined) {
     style.justifyContent = justify;
   }
 
