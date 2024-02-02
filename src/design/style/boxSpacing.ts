@@ -28,7 +28,7 @@ type BoxSpacingObjectOption =
   | BoxSpacingObjectOptionCase<'y' | 'left' | 'right'>
   | BoxSpacingObjectOptionCase<'top' | 'bottom' | 'left' | 'right'>;
 
-type BoxSpacingProps = BoxSpacingObjectOption | number | undefined;
+export type BoxSpacingProps = BoxSpacingObjectOption | number | undefined;
 
 function getStyleProperty<
   T extends Property,
