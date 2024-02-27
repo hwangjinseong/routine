@@ -1,5 +1,5 @@
+import {capitalize} from '~/utils/function';
 import {PickStyle, PickStyleProp} from '.';
-import {capitalize} from '../../utils/capitalize/function';
 
 type Property = 'margin' | 'padding';
 

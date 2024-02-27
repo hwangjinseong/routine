@@ -1,6 +1,6 @@
 import {Animated} from 'react-native';
 import {PickStyle} from '.';
-import {hexToRgb} from '../../utils/hexToRgb/function';
+import {hexToRgb} from '~/utils/function';
 
 type BgOptions = {
   opacity?: number;
