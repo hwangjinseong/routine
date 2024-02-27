@@ -13,6 +13,7 @@
     "@gorhom/portal": "^1.0.14",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.17",
+    "babel-plugin-module-resolve": "^1.7.0",
     "react": "18.2.0",
     "react-native": "0.73.3",
     "react-native-gesture-handler": "^2.14.1",
