@@ -1,4 +1,4 @@
 export * from './flex';
-export * from './type';
+export * from './types';
 export * from './boxSpacing';
 export * from './absolute';
