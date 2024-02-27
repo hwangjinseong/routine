@@ -3,10 +3,11 @@ import {PortalHost, PortalProvider} from '@gorhom/portal';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import Navigation from './Navigation';
+import {flex} from './src/design/style';
 
 function App() {
   return (
-    <GestureHandlerRootView style={{flex: 1}}>
+    <GestureHandlerRootView style={[flex(1)]}>
       <SafeAreaProvider>
         <PortalProvider>
           <Navigation />
