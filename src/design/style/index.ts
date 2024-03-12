@@ -5,3 +5,4 @@ export * from './absolute';
 export * from './border';
 export * from './appearance';
 export * from './overflow';
+export * from './sizing';
